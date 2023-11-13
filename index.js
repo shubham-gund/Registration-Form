@@ -15,7 +15,7 @@ mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.esamsew.mongodb
 
 // Create a user schema
 const registrationSchema = new mongoose.Schema({
-  username: String,
+  name: String,
   email: String,
   password: String
 });
